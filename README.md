@@ -1,32 +1,41 @@
 # SCT_CS_4
-🔑 Keylogger (Educational Project)
 
-This project is a simple keyboard event logger built with Python.
-It captures keystrokes on your system and saves them to a file.
+🔐 Basic Keylogger 
 
-⚠️ Disclaimer:
-This project is for educational purposes only as part of a cybersecurity internship task.
-Do not use it on anyone else’s device without their knowledge and consent.
+A simple keylogger that records and logs keyboard inputs. This project focuses on capturing keystrokes and saving them to a local file for educational and testing purposes.
 
-📌 Features
+🧠 Task Description
 
-Records all keystrokes (alphabets, numbers, symbols).
+Create a basic keylogger program that records and logs keystrokes. Focus on logging the keys pressed and saving them to a file.
 
-Logs special keys (Enter, Space, Shift, etc.) with tags.
+📂 Features
 
-Saves data to key_log.txt.
+Captures and logs keystrokes in real-time
 
-Stops logging when ESC key is pressed.
+Saves the keystrokes to a local text file
 
-🛠️ Requirements
+Lightweight and easy to run
 
-Python 3.8+ (tested on Python 3.13)
+Simple and readable Python code
 
-pynput library
+🚀 Getting Started
+✅ Prerequisites
 
-Install dependencies:
+Python 3.x
+
+pynput library (for capturing keyboard events)
+
+Install the required library:
 
 pip install pynput
+
+
+Keystrokes will be logged in a file named log.txt in the same directory.
+
+
+🙌 Acknowledgements
+
+pynput – Python library for controlling and monitoring input devices
 
 📂 Project Structure
 KeyLoggerProject/
@@ -55,20 +64,17 @@ Open key_log.txt to view captured keystrokes.
 
 If you type:
 
-Hello World
+Hello
 
 
 The log file may look like:
 
-H e l l o  [Key.space] W o r l d  [Key.enter]
+H e l l o  [Key.enter]
 
-🛡️ Ethical Usage
+⚖️ Legal Notice
 
-This project is meant to demonstrate how keylogging works for learning and security awareness.
-Real-world attackers may use such tools maliciously, but as cybersecurity learners, we use it only:
+This tool is intended for educational use only.
+Do not use it on machines you do not own or do not have permission to monitor.
+Misuse of this software can violate privacy laws and result in criminal charges.
 
-On our own system
 
-For practice and awareness
-
-To understand how to defend against such attacks
