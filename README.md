@@ -1,14 +1,14 @@
 # SCT_CS_4
 
-🔐 Basic Keylogger 
+# 🔐 Basic Keylogger 
 
 A simple keylogger that records and logs keyboard inputs. This project focuses on capturing keystrokes and saving them to a local file for educational and testing purposes.
 
-🧠 Task Description
+## 🧠 Task Description
 
 Create a basic keylogger program that records and logs keystrokes. Focus on logging the keys pressed and saving them to a file.
 
-📂 Features
+## 📂 Features
 
 Captures and logs keystrokes in real-time
 
@@ -18,7 +18,7 @@ Lightweight and easy to run
 
 Simple and readable Python code
 
-🚀 Getting Started
+## 🚀 Getting Started
 ✅ Prerequisites
 
 Python 3.x
@@ -33,11 +33,11 @@ pip install pynput
 Keystrokes will be logged in a file named log.txt in the same directory.
 
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 
 pynput – Python library for controlling and monitoring input devices
 
-📂 Project Structure
+## 📂 Project Structure
 KeyLoggerProject/
 
 │
@@ -52,7 +52,7 @@ KeyLoggerProject/
 ├── typed_word_after_running_prgm.img.png # Screenshot showing typed output after running script
 
 
-▶️ How to Run
+## ▶️ How to Run
 
 Clone/download this project or create the files manually.
 
@@ -69,7 +69,7 @@ Press ESC to stop logging.
 
 Open key_log.txt to view captured keystrokes.
 
-📖 Example Output
+## 📖 Example Output
 
 If you type:
 
@@ -80,7 +80,7 @@ The log file may look like:
 
 H e l l o  [Key.enter]
 
-⚖️ Legal Notice
+## ⚖️ Legal Notice
 
 This tool is intended for educational use only.
 Do not use it on machines you do not own or do not have permission to monitor.
