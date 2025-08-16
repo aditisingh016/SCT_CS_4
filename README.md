@@ -39,9 +39,18 @@ pynput – Python library for controlling and monitoring input devices
 
 📂 Project Structure
 KeyLoggerProject/
-│── keylogger.py     # Main script
-│── key_log.txt      # Generated log file
-│── README.md        # Documentation
+
+│
+├── README.md                           # Project documentation
+│
+├── keylogger.py                        # Main keylogger script to record keystrokes
+│
+├── keylogger_prgm_output.py           # Possibly a version that prints/logs keystrokes output
+│
+├── response_saved_as_key_log.txt.png  # Screenshot showing the saved keystroke log
+│
+├── typed_word_after_running_prgm.img.png # Screenshot showing typed output after running script
+
 
 ▶️ How to Run
 
